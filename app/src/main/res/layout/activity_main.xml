@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the type of the file that you want to Parse."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331"
+        android:layout_marginBottom="20px"
+        android:textSize="50px"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parse XML File"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="377dp"
+        android:layout_marginTop="90px"
+        android:onClick="parseXML"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parse JSON File"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="509dp"
+        android:layout_marginTop="50px"
+        android:onClick="parseJSON"/>
+
+
+</LinearLayout>

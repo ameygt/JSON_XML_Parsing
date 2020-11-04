@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<records>
+    <student>
+        <name>Aniket</name>
+        <surname>Pawar</surname>
+        <marks>80</marks>
+    </student>
+
+    <student>
+        <name>Chaitanya</name>
+        <surname>Thorat</surname>
+        <marks>70</marks>
+    </student>
+
+    <student>
+        <name>Mangesh</name>
+        <surname>Metkar</surname>
+        <marks>78</marks>
+    </student>
+
+</records>

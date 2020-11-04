@@ -1,0 +1,20 @@
+{
+  "student":[
+    {
+      "name": "Aniket",
+      "surname": "Pawar",
+      "marks": "80"
+    },
+    {
+      "name": "Chaitanya",
+      "surname": "Thorat",
+      "marks": "70"
+    },
+    {
+      "name": "Mangesh",
+      "surname": "Metkar",
+      "marks": "75"
+    }
+  ]
+
+}
